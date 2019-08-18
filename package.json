@@ -1,0 +1,23 @@
+{
+  "name": "ninja-weather",
+  "version": "1.0.0",
+  "description": "\" # ninja-weather\"",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElmiRabelo/ninja-weather.git"
+  },
+  "author": "Elmi Rabelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElmiRabelo/ninja-weather/issues"
+  },
+  "homepage": "https://github.com/ElmiRabelo/ninja-weather#readme"
+}
