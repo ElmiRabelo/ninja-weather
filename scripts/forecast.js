@@ -7,6 +7,7 @@ class Forecast {
 			"http://dataservice.accuweather.com/locations/v1/cities/search";
 	}
 
+	//updateCity is responsable for take the city from input, call getCity to obtain all the relevant data, pass the city key to getWeather that will use it as the necessary code to search the weather of that city
 	async updateCity(city) {
 		const cityDets = await this.getCity(city);
 		const weather = await this.getWeather(cityDets.Key);
