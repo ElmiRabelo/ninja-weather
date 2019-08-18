@@ -1,17 +1,50 @@
 body {
-  background: #eeedec;
-  letter-spacing: 0.2rem;
-  font-size: 0.8rem;
+	background: #eeedec;
+	letter-spacing: 0.2rem;
+	background: #4b79a1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#283e51,
+		#4b79a1
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#283e51,
+		#4b79a1
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
-  max-width: 400px;
+	max-width: 500px;
+}
+
+.main-title {
+	color: #f7f7f7;
+	font-weight: 600;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.lead {
+	color: #f4f4f4;
+}
+
+#city-input {
+	background: #c7cac7;
+	color: #333;
+}
+
+#city-input,
+#city-input:focus,
+#city-input:active {
+	outline: 0;
+	border: none;
+	box-shadow: none;
 }
 
 .icon {
-  position: relative;
-  top: -50px;
-  border-radius: 50%;
-  width: 100px;
-  margin-bottom: -50px;
+	position: relative;
+	top: -50px;
+	border-radius: 50%;
+	width: 100px;
+	margin-bottom: -50px;
 }
